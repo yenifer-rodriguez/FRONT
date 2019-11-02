@@ -1,0 +1,12 @@
+html {
+    background-color: #66cdaa;
+  }
+body {
+    width: 2000px 4000px;
+    
+    margin: 180px 80px 80px 80px ;
+    background-color: #ff00dd ;
+    padding: 200px 200px 200px 200px  ;
+    /*background-color:	#e0ffff;*/
+    border: 300px solid rgb(248, 188, 21);
+  }  
