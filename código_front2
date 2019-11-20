@@ -1,0 +1,54 @@
+</section>
+    <section class="bg-cuerpo">
+        <div class="container-fluid">
+                <div class="row">
+                        <div class="col-md-6 mt-2">
+                                <img src="img/upc-ic-calendar.svg" class="img-calendario " alt="">
+                                <div class="fechita">
+                                    <span>12/11/2019</span>
+                                </div>
+                                <div class="hasta">
+                                    <span>hasta</span>
+                                </div>
+                                <div class="fechita2">
+                                        <span>13/11/2019</span>
+                                </div>
+                        </div>
+                        <div class="col-md-6 mt-2">
+                                
+                                    <select>
+                                        <option value="DNI">DNI</option>
+                                        <option value="PASAPORTE">PASAPORTE</option>
+                                    </select>
+                                    
+                                     <input type="text" class="form-control width-form" placeholder="Buscar" aria-label="Buscar" aria-describedby="basic-addon1" >
+  
+                        </div>                           
+                </div>
+        </div>
+        <div class="container-fluido">
+                <div class="row">
+                        <div class="col-md-12">
+                                <div class="titulazo text-center space-top">
+                                        <h6>NO SE HAN EMITIDO CONSTANCIAS EN EL PERIODO SELECCIONADO</h6>
+                                </div>
+
+                        </div>
+
+                </div>
+
+
+             
+
+
+        </div>
+    
+    
+    
+    
+    </section>
+
+    <!-- style="outline:1px solid red" -->
+    
+</body>
+</html>
