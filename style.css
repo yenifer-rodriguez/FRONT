@@ -1,12 +1,51 @@
-html {
-    background-color: #66cdaa;
+
+
+  
+h3{
+  display: block;
+  font-size:28px;
+}
+
+p{
+  color:white;
+  font-size:30px
+  
+}
+figcaption{
+  position:absolute;
+  top:349px;
+  bottom:330px;
+  right:112px;
+  left:105px;
+}
+img{
+  display: block;
+  width: 832px;
+  height: 800px;
+
+}
+.bg-image {
+  background:url('../img/component.png');
+  background-repeat:no-repeat;
+  background-size: cover;
+  width:100%;
+  
+}
+.form-control {
+  display: inline-block !important;
+}
+.width-form {
+  width: 260px;
+}
+.width-logo-upc img {
+  width: 30px;
+}
+@media(min-width:768px){
+  .bg-image {
+    min-height:700px;
+    height:100vh
   }
-body {
-    width: 2000px 4000px;
-    
-    margin: 180px 80px 80px 80px ;
-    background-color: #ff00dd ;
-    padding: 200px 200px 200px 200px  ;
-    /*background-color:	#e0ffff;*/
-    border: 300px solid rgb(248, 188, 21);
-  }  
+  .space-top {
+    padding-top: 150px;
+  }
+}
