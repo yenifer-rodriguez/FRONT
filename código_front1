@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="style/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+    <section>
+      <!-- por que lo pones dentro de un seccion?--> 
+    
+      <div class="container-fluid">
+        
+        <div class="row">
+            
+            <div class="col-md-4">
+              <div class="row">
+                <div class="col-md-2 mt-3 width-logo-upc">
+                  <img src="img/upc-logo.svg" class="img-fluid " alt="">
+                </div>
+              </div>
+              
+                <div class="titulazo text-center space-top">
+                  <h3><b>UPC BLOCKCERTS</b></h3>
+                </div>
+                <div class="login mt-4">     
+                  <form class="text-center ">
+                      
+                        <input type="text" class="form-control width-form" placeholder="Código de Usuario" aria-label="Código de Usuario" aria-describedby="basic-addon1" >
+                      
+                  </form >
+                  <form class=" text-center mt-4">
+                    
+                        <input type="text" class="form-control width-form" placeholder="contraseña" aria-label="contraseña" aria-describedby="basic-addon1" >
+                    
+                  </form>
+                </div> 
+            </div>
+            <div class="col-md-8 bg-image">
+                
+                    
+                    <figcaption><p>LAS CONSTANCIAS QUE EMITAS
+                        ESTARÁN CERTIFICADAS CON BLOCKCHAIN</P></figcaption>
+              
+            </div>
+        </div>
+        
+      </div>
+    </section>
+    
+</body>
+</html>
